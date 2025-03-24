@@ -3,10 +3,29 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Roboto; sans-serif;
+    font-size: 16px;
     line-height: 1.2;
     text-align: center;
-    background-color: aliceblue;
+    background-color:#ffffff;
+}
+
+.decoration{
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color:#806F51
+}
+
+.information-user{
+    margin-bottom: 1em;
+    color: #e0a092;
+}
+
+.decoration2{
+    margin-bottom: 1em;
+    
 }
 
 .Card{
@@ -44,7 +63,33 @@ body {
 }
 
 .box-content{
+
+
+
+
+
+
+
+
+
+
+    
     padding:0 20px 15px;
-    margin-bottom: 1em;
 }
 
+.brands-box{
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+   
+}
+
+.fa-brands{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.btn-box{
+   display: flexbox; 
+}
